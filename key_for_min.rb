@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
       reference = key
     end
     vref = value
-    binding.pry
+    # binding.pry
   end
   reference
 end
