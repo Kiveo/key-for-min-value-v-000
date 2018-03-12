@@ -8,6 +8,7 @@ def key_for_min_value(name_hash)
       key
     end
     baseline = value
+    key
   end
   baseline
 end
