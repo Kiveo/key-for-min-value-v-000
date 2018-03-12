@@ -4,7 +4,9 @@
 def key_for_min_value(name_hash)
   baseline = 1000
   name_hash.collect do |key, value|
-    if value < baseline
+    if value < 1
+      nil
+    elsif value < baseline
       key
     end
     baseline = value
