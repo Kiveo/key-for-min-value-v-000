@@ -3,11 +3,11 @@
 
 def key_for_min_value(name_hash)
   baseline = 1000
-  name_hash.collect do |key1, value|
+  name_hash.collect do |key, value|
     if value < baseline
-      key1
+      key
     end
     baseline = value
   end
-  key1
+  baseline
 end
