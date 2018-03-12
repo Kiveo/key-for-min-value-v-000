@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     if value < vref
       reference = key
     end
-    vref = value
+    vref = :value
   end
   reference
 end
