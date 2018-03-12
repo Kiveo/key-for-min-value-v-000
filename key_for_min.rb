@@ -9,5 +9,5 @@ def key_for_min_value(name_hash)
     end
     baseline = value
   end
-  name_hash
+  name_hash[key]
 end
