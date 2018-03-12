@@ -5,9 +5,9 @@ def key_for_min_value(name_hash)
   reference = "x"
   vref = 1000
   name_hash.collect do |key, value|
-    reference = key
+  
     if value < vref
-      key
+      reference = key
     end
     vref = value
   end
