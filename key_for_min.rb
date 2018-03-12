@@ -9,7 +9,9 @@ def key_for_min_value(name_hash)
     if value < vref
       reference = key
     end
-    vref = value
+    if vref > value
+     vref = value
+   end
     # binding.pry
   end
   reference
